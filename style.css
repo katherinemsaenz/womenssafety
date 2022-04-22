@@ -1,0 +1,129 @@
+h1{
+  font-family: 'Sen', sans-serif;
+  font-size: 40px;
+  padding: 16px 15px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS91xdWpuZ2TyXw1wkImb4A_YXKADbjDc8ae5MKQERz8feC3GwVO2ql6f_ek_ZMrja7TXY&usqp=CAU);
+  background-size: 145% 150%;
+  text-align: center;
+
+}
+
+.topnav{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #fd5e53;
+
+  text-align: center;
+}
+
+.topnav a {
+  font-family: 'Sen', sans-serif;
+  color: black;
+  font-size: 18px;
+  background-color: #fd5e53;
+  border: none;
+  float: center;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+
+}
+
+.topnav a:hover {
+    background-color: #fd766c;
+
+}
+
+.topnav a.active {
+   background-color: #fd5e53;
+
+}
+
+
+/* .tabcontent{
+  font-family: 'Lato', sans-serif;
+  display: none;
+  padding: 6px 12px;
+  text-align: center;
+
+} */
+
+
+h2{
+  font-family: 'Sen', sans-serif;
+  text-align: center;
+}
+
+h4{
+  font-family: 'Sen', sans-serif;
+  text-align: center;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/828/520/small/abstract-yellow-gradient-background-vector.jpg);
+  background-size: 30% 10%;
+
+}
+h3{
+  font-family: 'Sen', sans-serif;
+  text-align: center;
+  color: red;
+
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+li{
+font-family: 'Sen', sans-serif;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+
+.pepperspray{
+  width: 50px;
+  height: 50px;
+}
+
+.Sriya{
+width: 75px;
+  height: 50px;
+
+}
+.wristband{
+width: 50px;
+  height: 50px;
+
+}
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+li {
+  counter-increment: my-awesome-counter;
+  margin: 0.25rem;
+}
+li::before {
+  content: counter(my-awesome-counter);
+  background: red;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 2rem;
+  color: white;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+ol ol li::before {
+  background: #fd5e53;
+}
+ol ol ol li::before {
+  background: #fd5e53;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+}
